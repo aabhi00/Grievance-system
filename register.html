@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script = script1.js></script>
+    <link rel = 'stylesheet' type = "text/css" href = "style1.css"></style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Registration Form</h1>
+    <form>
+      <label for="username">Username*:</label><br>
+      <input type="text" id="username" name="username" required><br>
+      <label for="firstname">First name*:</label><br>
+      <input type="text" id="firstname" name="firstname" required><br>
+      <label for="lastname">Last name*:</label><br>
+      <input type="text" id="lastname" name="lastname" required><br>
+      <label for="email">Email address:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="password">Password*:</label><br>
+      <input type="password" id="password" name="password" required><br>
+      <label for="confirmpassword">Password confirmation*:</label><br>
+      <input type="password" id="confirmpassword" name="confirmpassword" required><br>
+      <label for="collegename">Collegename*:</label><br>
+      <input type="text" id="collegename" name="collegename" required><br>
+      <label for="department">Department:</label><br>
+      <select id="department" name="department">
+        <option value="computer science">department of computer science</option>
+        <option value="mathematics">department of mathematics</option>
+        <option value="physics">department of physics</option>
+        <option value="statistics">department of statistics</option>
+        <option value="chemistry">department of chemistry</option>
+        <option value="geology">department of geology</option>
+        <option value="geography">department of geography</option>
+        <option value="botony">department of botony</option>
+        <option value="zoology">department of zoology</option>
+        <option value="geophysics">department of physics(geophysics)</option>
+      </select><br>
+      <input type="submit" value="Sign Up">
+    </form>
+    <footer>
+      <p>Already have an account? <a href="login.html">Sign In</a></p>
+    </footer>
+  </main>
+</body>
+</html>
